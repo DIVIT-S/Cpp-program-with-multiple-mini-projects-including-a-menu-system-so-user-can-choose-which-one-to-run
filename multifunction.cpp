@@ -82,7 +82,22 @@ void simpleToDoList() {
     for (const auto &t : tasks) cout << "- " << t << endl;
 }
 
-
+void rockPaperScissors() {
+    string choices[] = {"Rock", "Paper", "Scissors"};
+    string userChoice;
+    srand(time(0));
+    string compChoice = choices[rand() % 3];
+    cout << "Enter Rock, Paper, or Scissors: ";
+    cin >> userChoice;
+    cout << "Computer chose: " << compChoice << endl;
+    if (userChoice == compChoice) cout << "It's a tie!" << endl;
+    else if ((userChoice == "Rock" && compChoice == "Scissors") ||
+             (userChoice == "Paper" && compChoice == "Rock") ||
+             (userChoice == "Scissors" && compChoice == "Paper"))
+        cout << "You win!" << endl;
+    else
+        cout << "You lose!" << endl;
+}
 
 int main() {
     int choice;
