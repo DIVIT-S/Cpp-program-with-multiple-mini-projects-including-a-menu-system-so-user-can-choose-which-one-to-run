@@ -115,6 +115,7 @@ int main() {
             case 5: evenOrOddChecker(); break;
             case 6: multiplicationTable(); break;
             case 7: simpleToDoList(); break;
+            case 8: rockPaperScissors(); break;
             case 0: cout << "Exiting program. Goodbye!" << endl; break;
             default: cout << "Invalid choice! Try again." << endl;
         }
