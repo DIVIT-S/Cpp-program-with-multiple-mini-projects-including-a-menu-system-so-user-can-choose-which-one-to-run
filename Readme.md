@@ -3,7 +3,6 @@
 
 ![Made with C++](https://img.shields.io/badge/Made%20with-C%2B%2B-blue.svg)
 ![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg)
-![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 This is a **menu‑driven C++ program** that combines several small projects into one executable.  
 Choose from the menu to run any project.
